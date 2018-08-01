@@ -7,10 +7,10 @@ public class Account {
 	private String lastName;
 	private int accountNumber;
 	
-	public Account(String FirstName,String LastName,int AccountNumber){
-		this.firstName = FirstName;
-		this.lastName = LastName;
-		this.accountNumber = AccountNumber;
+	public Account(String firstName,String lastName,int accountNumber){
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.accountNumber = accountNumber;
 	}
 
 	public String getFirstName() {

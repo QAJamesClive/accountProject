@@ -3,6 +3,8 @@ package code;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.json.JSONObject;
+
 public class Service {
 	
 	private Map<Integer,Account> hMapAccounts = new HashMap<>();
@@ -13,5 +15,9 @@ public class Service {
 	
 	public Account retrieveAccount(Integer key) {
 		return hMapAccounts.get(key);
+	}
+	
+	public JSONObject displayHashMap() {
+		return new JSONObject(hMapAccounts);
 	}
 }

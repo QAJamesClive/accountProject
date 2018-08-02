@@ -32,6 +32,6 @@ public class TestService {
 		Service s = new Service();
 		Account a = new Account("James", "Clive", 69);
 		s.addAccount(a);
-		assertEquals("Testing the retrive", 1,s.countSameNameAccounts("James", "Clive"));
+		assertEquals("Testing the retrive", 1,s.countSameNameAccounts("James"));
 	}
 }

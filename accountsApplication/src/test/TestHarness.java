@@ -17,8 +17,8 @@ public class TestHarness {
 		tApp.testHelloWorld();
 		
 		tSer.testGetAccount();
-		
 		tSer.testDisplayHashMap();
+		tSer.testCountSameNameAccounts();
 	}
 
 }
